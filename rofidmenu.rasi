@@ -4,6 +4,7 @@
  *******************************************************/
 configuration {
     font:				          "Google Sans Bold 18";
+    /* font:				          "Meslo LG S DZ Bold 18"; */
     show-icons:				    true;
     icon-theme:				    "Qogir";
     display-drun:			    "🔍 ";
@@ -20,10 +21,11 @@ window {
     padding:            20 15 15 20;
     border:             2px solid;
     border-color:       #bd93f9;
+    width:              600px;
 }
 listview {
     lines:                          7;
-    columns:                        2;
+    columns:                        1;
 }
 mainbox {
     border:  0;
@@ -42,7 +44,7 @@ listview {
     border:       8px 0px 0px ;
     border-color: @separatorcolor;
     spacing:      8px ;
-    scrollbar:    false;
+    scrollbar:    true;
     padding:      2px 0px 0px ;
 }
 element {
@@ -95,7 +97,10 @@ element.alternate.active {
 scrollbar {
     width:        4px ;
     border:       0;
-    handle-color: @normal-foreground;
+    handle-color: #282a36;
+    /* handle-color: #bd93f9; */
+    /* handle-color: #50fa7b; */
+    /* handle-color: @normal-foreground; */
     handle-width: 8px ;
     padding:      0;
 }
@@ -114,7 +119,9 @@ button.selected {
 inputbar {
     spacing:    0;
     text-color: @normal-foreground;
-    padding:    1px ;
+    padding:    14px 16px;
+    border-radius: 4px;
+    background-color: #44475a;
 }
 case-indicator {
     spacing:    0;
