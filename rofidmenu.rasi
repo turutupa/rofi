@@ -19,7 +19,7 @@ configuration {
 window {
     background-color:   #2E3440;
     padding:            20 15 15 20;
-    border:             2px solid;
+    border:             0px solid;
     border-color:       #bd93f9;
     width:              600px;
 }
