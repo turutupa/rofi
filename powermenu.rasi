@@ -13,6 +13,16 @@
 
 @import "~/.config/rofi/rofidmenu.rasi"
 
+window {
+  width: 400px;
+  border-radius: 8px;
+}
+
+element {
+  margin: 0;
+  padding: 10px 10px;
+}
+
 /* window { */
 /*     background-color:               @background; */
 /*     border:                         none;  */

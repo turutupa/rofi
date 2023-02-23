@@ -1,1 +1,7 @@
 @theme "/home/turutupa/.config/rofi/rofidmenu.rasi"
+
+
+listview {
+    lines: 4;
+    columns: 1;
+}
