@@ -21,7 +21,7 @@ window {
     background-color:               @background;
     border:                         0;
     padding:                        10;
-    transparency:                   "real";
+    transparency:                   none;
     width:                          170px;
     height:                         200px;
     location:                       east;

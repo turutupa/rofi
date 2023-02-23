@@ -12,6 +12,7 @@ configuration {
     scroll-method:			  0;
     disable-history:		  false;
     sidebar-mode:			    false;
+    
 }
 
 @import "~/.config/rofi/arc_dark_transparent_colors.rasi"
@@ -24,8 +25,8 @@ window {
     width:              600px;
 }
 listview {
-    lines:                          7;
-    columns:                        1;
+    lines: 7;
+    columns: 1;
 }
 mainbox {
     border:  0;
@@ -48,11 +49,15 @@ listview {
     padding:      2px 0px 0px ;
 }
 element {
+    children: [ element-text, element-icon];
     border:  1px;
     border-color: rgb(0,0,0,0);
-    padding:          15px 0 17px 20px;
+    padding:          15px 20px 17px 20px;
     border-radius:    0;
     border-radius: 8px;
+}
+element-icon {
+  padding: 0 10px;
 }
 element-text {
     background-color: inherit;
