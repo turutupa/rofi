@@ -4,7 +4,7 @@
  *******************************************************/
 
 configuration {
-    font:                           "Noto Sans Regular 14";
+    font:                           "Google Sans 18";
     show-icons:                     false;
     icon-theme: 					          "Qogir";
     scroll-method:                  0;
@@ -14,7 +14,7 @@ configuration {
 	  sidebar-mode: 					        false;
 }
 
-@import "~/.config/rofi/arc_dark_colors.rasi"
+@import "~/.config/rofi/rofidmenu.rasi"
 
 
 window {
