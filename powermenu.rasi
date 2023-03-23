@@ -15,7 +15,7 @@
 
 window {
   width: 400px;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 element {
