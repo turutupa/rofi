@@ -5,3 +5,16 @@ listview {
     lines: 4;
     columns: 1;
 }
+
+configuration {
+    font: "Google Sans 21";
+
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
+    show-icons:     true;
+}
+
+@theme "~/.config/rofi/gruvbox-material.rasi"

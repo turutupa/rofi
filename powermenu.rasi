@@ -16,11 +16,12 @@
 window {
   width: 400px;
   border-radius: 0px;
+  height: 500px;
 }
 
 element {
   margin: 0;
-  padding: 10px 10px;
+  padding: 10px 30px;
 }
 
 /* window { */
