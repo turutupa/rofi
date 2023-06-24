@@ -14,14 +14,14 @@
 @import "~/.config/rofi/rofidmenu.rasi"
 
 window {
-  width: 400px;
-  border-radius: 0px;
+  width: 350px;
   height: 500px;
 }
 
 element {
   margin: 0;
-  padding: 10px 30px;
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 
 /* window { */
